@@ -25,7 +25,8 @@ body, html {
 
 .bgimg-2 {
   background-image: url("img/568191.png");
-  min-height: 400px;
+  min-height: 52%;
+
 }
 
 .bgimg-3 {
