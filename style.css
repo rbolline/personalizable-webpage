@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
 body, html {
   height: 100%;
   margin: 0;
@@ -7,7 +11,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.75;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,19 +19,77 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("IMG_0212.JPG");
+  background-image: url("img/dsds.JPG");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("568191.png");
+  background-image: url("img/568191.png");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("IMG_0272.PNG");
+  background-image: url("img/IMG_0272.PNG");
   min-height: 400px;
 }
+
+/*************************************************************
+
+
+                          NAV BAR
+
+
+**************************************************************/
+.container {
+  margin-top: 20px;
+  margin-right: 10%;
+  float: right;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  font-size: 17px;
+}
+
+/*************************************************************
+
+
+                        MAIN PAGE TITLE
+
+
+**************************************************************/
+.name {
+	width: 500px;
+	height: 100px;
+	background-color: none;
+  font-family: 'Arvo', serif;
+  font-size: 43px;
+  color: black;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+}
+
+
+
+
 
 .caption {
   position: absolute;
