@@ -244,7 +244,7 @@ nav a:hover {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 24px "Lato", sans-serif;
+  font: 22px "Lato", sans-serif;
   color: #111;
 }
 
@@ -268,9 +268,20 @@ h3 {
                         CONNECT PAGE
 
 **************************************************************/
-.connect-container{
-  background-color: #f8f8ff;
+.connect-frame{
   min-height: 100%;
+  background-color: #f8f8ff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.connect-container{
+  background-color: white;
+  width: 80%;
+  margin: auto;
 
   display: flex;
   flex-direction: row;
@@ -279,31 +290,34 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
 
-}
+  border-radius: 20px;
 
-.contact-me, .contact-photo{
-
-  /**background-color: white;*/
-  width: 440px;
-  height: 500px;
 }
 
 .contact-me{
+  width: 440px;
+  height: 500px;
+
   display:flex;
   flex-direction: column;
+  justify-content: center;
 
   /**border: solid blue 3px;
   border-radius: 14px;*/
 }
 
 .contact-photo{
-  border-radius: 15px;
+  border-radius: 17px;
 
   background-image: url("img/mej.jpg");
   opacity: 1;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+
+  width: 390px;
+  height: 444px;
+
 }
 
 .social-media{
@@ -339,12 +353,14 @@ h3 {
 .contact-title{
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 24px "Lato", sans-serif;
+  font: 26px "Lato", sans-serif;
   color: #111;
 
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+
+  text-align: center;
 }
 
 #phone, #gmail{
