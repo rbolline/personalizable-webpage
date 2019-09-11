@@ -31,27 +31,26 @@ h3{
 
 .bgimg-2 {
   background-image: url("img/uw_campus.jpg");
-  min-height: 40%;
-  max-height: 40%;
+  min-height: 38%;
+  max-height: 39%;
+  border: solid 13px white;
 }
 
 .bgimg-3 {
   background-image: url("img/IMG_0272.PNG");
   min-height: 400px;
-  background-attachment:scroll;
+  background-attachment: scroll;
 
 }
 
 .bgimg-4 {
-  background-image: url("img/dsds.jpg");
+  background-image: url("img/mej.jpg");
   min-height: 100%;
 }
 
 /*************************************************************
 
-
                           NAV BAR
-
 
 **************************************************************/
 .container {
@@ -87,9 +86,7 @@ a:hover {
 
 /*************************************************************
 
-
                         MAIN PAGE TITLE
-
 
 **************************************************************/
 .name {
@@ -122,19 +119,16 @@ a:hover {
 
 /*************************************************************
 
-
                         ABOUT ME PAGE
-
 
 **************************************************************/
 .about{
   color: #777;
   background-color:white;
-  text-align:center;
-  padding:20px 80px;
+  padding: 8px 80px 40px ;
   text-align: center;
-  min-height: 52%;
-  max-height: 60%;
+  min-height: 51%;
+  max-height: 51%;
 }
 
 .about-container{
@@ -171,36 +165,50 @@ a:hover {
 
 .line-height110{
   line-height: 90%;
+  font-size: 16px;
 }
 
-
+.campus-border{
+}
 
 /*************************************************************
 
-
-                        FOOTER
-
+                        RESUME PAGE
 
 **************************************************************/
-/*
-.footer{
-  text-align: center;
-  vertical-align: middle;
-  background-color: #404040;
+
+.resume-container{
+
+  min-height: 100%;
+  color:#ddd;
+  background: radial-gradient(#666666, #191919);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
-footer img{
-  max-height: 55px;
+.resume{
+  background-color: rgba(220, 220, 220, 0.6);
+  padding: 50px;
+
+  width: 340px;
+  height: 430px;
+
+  border-radius: 10px;
 }
 
-.circle{
-  border-radius: 50%;
-  height: 55px;
-  width: 55px;
-  margin: auto;
-  background-color: white;
+.resume img{
+  width: 100%;
+  height: auto;
 }
-*/
+
+.white{
+  color: white;
+}
+
 
 
 .caption {
@@ -250,7 +258,32 @@ h3 {
   }
 }
 
+/*************************************************************
 
+
+                        FOOTER
+
+
+**************************************************************/
+/*
+.footer{
+  text-align: center;
+  vertical-align: middle;
+  background-color: #404040;
+}
+
+footer img{
+  max-height: 55px;
+}
+
+.circle{
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  margin: auto;
+  background-color: white;
+}
+*/
 
 .hidden {
   /* Used to override other display properties,
