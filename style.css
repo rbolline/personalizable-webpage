@@ -336,6 +336,17 @@ h3 {
   height: auto;
 }
 
+.contact-title{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 24px "Lato", sans-serif;
+  color: #111;
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #phone, #gmail{
   display: flex;
   align-items: center;
