@@ -33,7 +33,8 @@ h3{
   background-image: url("img/uw_campus.jpg");
   min-height: 38%;
   max-height: 39%;
-  border: solid 13px white;
+  border: solid 15px white;
+
 }
 
 .bgimg-3 {
@@ -46,6 +47,9 @@ h3{
 .bgimg-4 {
   background-image: url("img/mej.jpg");
   min-height: 100%;
+  opacity: 0.95;
+  background-size: contain;
+
 }
 
 /*************************************************************
@@ -79,7 +83,7 @@ h3{
   font-size: 22px;
 }
 
-a:hover {
+nav a:hover {
   background-color: white;
   color: #0066ff;
 }
@@ -125,7 +129,7 @@ a:hover {
 .about{
   color: #777;
   background-color:white;
-  padding: 8px 80px 40px ;
+  padding: 12px 80px 40px ;
   text-align: center;
   min-height: 51%;
   max-height: 51%;
@@ -141,15 +145,16 @@ a:hover {
 }
 
 .image-cropper {
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #ff0066;
+    border: 2px solid white/*#ff0066*/;
 }
 .profile-pic {
-  height: 100%;
+  height: 106%;
+  width: auto;
 }
 
 .information{
@@ -195,7 +200,7 @@ a:hover {
   padding: 50px;
 
   width: 340px;
-  height: 430px;
+  height: 435px;
 
   border-radius: 10px;
 }
@@ -239,7 +244,7 @@ a:hover {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 24px "Lato", sans-serif;
   color: #111;
 }
 
@@ -257,6 +262,94 @@ h3 {
     background-attachment: scroll;
   }
 }
+
+/*************************************************************
+
+                        CONNECT PAGE
+
+**************************************************************/
+.connect-container{
+  background-color: #f8f8ff;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.contact-me, .contact-photo{
+
+  /**background-color: white;*/
+  width: 440px;
+  height: 500px;
+}
+
+.contact-me{
+  display:flex;
+  flex-direction: column;
+
+  /**border: solid blue 3px;
+  border-radius: 14px;*/
+}
+
+.contact-photo{
+  border-radius: 15px;
+
+  background-image: url("img/mej.jpg");
+  opacity: 1;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.quick-contact{
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  font: 17px "Lato", sans-serif;
+  color: #111;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+}
+
+.icon2{
+  width: 70px;
+  height: auto;
+}
+
+#phone, #gmail{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*************************************************************
 
