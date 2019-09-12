@@ -10,6 +10,10 @@ body, html {
   color: #777;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 h3 {
   text-align: center;
   letter-spacing: 5px;
@@ -132,7 +136,7 @@ h3 {
   z-index: 1;
 }
 
-.uparrow, .downarrow{
+#uparrow, #downarrow{
   border-radius: 5px;
 
   background-size: contain;
@@ -146,14 +150,12 @@ h3 {
 
 }
 
-.uparrow{
+#uparrow{
   background-image: url("img/arrowimgup.png");
-
 }
 
-.downarrow{
+#downarrow{
   background-image: url("img/arrowimgdown.png");
-
 }
 
 /*************************************************************
