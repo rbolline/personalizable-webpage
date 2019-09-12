@@ -20,7 +20,6 @@ h3 {
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  opacity: 0.75;
   background-attachment:fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,15 +37,10 @@ h3 {
   min-height: 38%;
   max-height: 39%;
   border: solid 15px white;
-
+  z-index: -1;
+  opacity: 0.9;
 }
 
-.bgimg-3 {
-  background-image: url("img/IMG_0272.PNG");
-  min-height: 400px;
-  background-attachment: scroll;
-
-}
 
 .bgimg-4 {
   background-image: url("img/mej.jpg");
@@ -87,7 +81,7 @@ h3 {
   font-size: 22px;
 }
 
-nav a:hover {
+.link:hover {
   background-color: white;
   color: #0066ff;
 }
@@ -123,6 +117,43 @@ nav a:hover {
 }
 #identity{
   font-size: 25px;
+}
+
+.navigator{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom:5%;
+  right:3%;
+
+  height: 55px;
+  z-index: 1;
+}
+
+.uparrow, .downarrow{
+  border-radius: 5px;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 25px;
+  height: 25px;
+
+  cursor: pointer;
+
+}
+
+.uparrow{
+  background-image: url("img/arrowimgup.png");
+
+}
+
+.downarrow{
+  background-image: url("img/arrowimgdown.png");
+
 }
 
 /*************************************************************
@@ -251,7 +282,7 @@ nav a:hover {
 
   border-radius: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 
   padding-right: 20px;
 
@@ -279,8 +310,8 @@ nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
 
-  width: 390px;
-  height: 444px;
+  width: 365px;
+  height: 420px;
 
 }
 
