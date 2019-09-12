@@ -132,7 +132,7 @@ nav a:hover {
 **************************************************************/
 .about{
   color: #777;
-  background-color: #f8f8ff;
+  background-color: white;
   padding: 12px 80px 40px ;
   text-align: center;
   min-height: 51%;
@@ -193,7 +193,6 @@ nav a:hover {
   /**background: radial-gradient(#666666, #191919);  */
   background-color: #191919;
 
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,6 +250,10 @@ nav a:hover {
   align-items: center;
 
   border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  padding-right: 20px;
 
 }
 
@@ -264,6 +267,7 @@ nav a:hover {
 
   /**border: solid blue 3px;
   border-radius: 14px;*/
+
 }
 
 .contact-photo{
@@ -286,7 +290,6 @@ nav a:hover {
   justify-content: center;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .quick-contact{
@@ -298,6 +301,7 @@ nav a:hover {
   letter-spacing: 1px;
   font: 17px "Lato", sans-serif;
   color: #111;
+
 }
 
 .icon{
@@ -313,7 +317,7 @@ nav a:hover {
 .contact-title{
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 26px "Lato", sans-serif;
+  font: 22px "Lato", sans-serif;
   color: #111;
 
   width: 70%;
@@ -338,8 +342,51 @@ nav a:hover {
 **************************************************************/
 
 .footer{
-  
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 25px 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
 }
+
+.footer-left, .footer-right{
+  width: 40%;
+  height: 70%;
+  text-align: center;
+  line-height: 150%;
+  margin: auto;
+}
+
+.footer-center{
+  border-radius: 50%;
+  background-color: white;
+}
+
+.home-icon{
+  padding:5px;
+  width: 40px;
+  height: auto;
+}
+
+.footer-text{
+  letter-spacing: 1px;
+  font: 13px "Lato", sans-serif;
+  color: #111;
+}
+
+.footer-right a{
+  color: #f8f8ff;
+}
+
+
 
 /*
 .footer{
